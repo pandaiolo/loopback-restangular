@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<testsuites>
+  <testsuite name="PhantomJS 1.9.7 (Mac OS X)" package="" timestamp="2014-09-25T18:50:06" id="0" hostname="MacBook42.local" tests="6" errors="1" failures="1" time="0.072">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.7 Safari/534.34"/>
+    </properties>
+    <testcase name="&quot;before all&quot; hook" time="0.072" classname="PhantomJS 1.9.7 (Mac OS X).services MyModel service">
+      <failure type="">TypeError: &apos;undefined&apos; is not a function (evaluating &apos;Restangular.all(endPoint).doPUT.bind(Restangular)&apos;)
+    at createRestangularService (http://localhost:3838/services?services::MyModel%20service::%22before%20all%22%20hook:54)
+    at http://localhost:3838/services?services::MyModel%20service::%22before%20all%22%20hook:105
+    at invoke (/Users/pandaiolo/Sites/wss-app/node_modules/loopback-restangular/bower_components/angular/angular.js:4112)
+    at /Users/pandaiolo/Sites/wss-app/node_modules/loopback-restangular/bower_components/angular/angular.js:3944
+    at getService (/Users/pandaiolo/Sites/wss-app/node_modules/loopback-restangular/bower_components/angular/angular.js:4071)
+    at /Users/pandaiolo/Sites/wss-app/node_modules/loopback-restangular/test.e2e/spec/services.spec.js:16
+    at processQueue (/Users/pandaiolo/Sites/wss-app/node_modules/loopback-restangular/bower_components/angular/angular.js:12234)
+    at /Users/pandaiolo/Sites/wss-app/node_modules/loopback-restangular/bower_components/angular/angular.js:12250
+    at /Users/pandaiolo/Sites/wss-app/node_modules/loopback-restangular/bower_components/angular/angular.js:13436
+    at /Users/pandaiolo/Sites/wss-app/node_modules/loopback-restangular/bower_components/angular/angular.js:13248
+    at /Users/pandaiolo/Sites/wss-app/node_modules/loopback-restangular/bower_components/angular/angular.js:13474
+    at completeOutstandingRequest (/Users/pandaiolo/Sites/wss-app/node_modules/loopback-restangular/bower_components/angular/angular.js:4544)
+    at /Users/pandaiolo/Sites/wss-app/node_modules/loopback-restangular/bower_components/angular/angular.js:4851
+</failure>
+    </testcase>
+    <system-out><![CDATA[PhantomJS 1.9.7 (Mac OS X) LOG: function bound() { ... }
+,PhantomJS 1.9.7 (Mac OS X) ERROR: 'TypeError: 'undefined' is not a function (evaluating 'Restangular.all(endPoint).doPUT.bind(Restangular)')
+    at createRestangularService (http://localhost:3838/services?services::MyModel%20service::%22before%20all%22%20hook:54)
+    at http://localhost:3838/services?services::MyModel%20service::%22before%20all%22%20hook:105
+    at invoke (http://localhost:9876/base/bower_components/angular/angular.js?e2cef38defd7f05be9f8574daa85e68d8efad19c:4112)
+    at http://localhost:9876/base/bower_components/angular/angular.js?e2cef38defd7f05be9f8574daa85e68d8efad19c:3944
+    at getService (http://localhost:9876/base/bower_components/angular/angular.js?e2cef38defd7f05be9f8574daa85e68d8efad19c:4071)
+    at http://localhost:9876/base/test.e2e/spec/services.spec.js?7de3ecb1faee2d3aeb6fa8c02b169cba7abd5639:16
+    at processQueue (http://localhost:9876/base/bower_components/angular/angular.js?e2cef38defd7f05be9f8574daa85e68d8efad19c:12234)
+    at http://localhost:9876/base/bower_components/angular/angular.js?e2cef38defd7f05be9f8574daa85e68d8efad19c:12250
+    at http://localhost:9876/base/bower_components/angular/angular.js?e2cef38defd7f05be9f8574daa85e68d8efad19c:13436
+    at http://localhost:9876/base/bower_components/angular/angular.js?e2cef38defd7f05be9f8574daa85e68d8efad19c:13248
+    at http://localhost:9876/base/bower_components/angular/angular.js?e2cef38defd7f05be9f8574daa85e68d8efad19c:13474
+    at completeOutstandingRequest (http://localhost:9876/base/bower_components/angular/angular.js?e2cef38defd7f05be9f8574daa85e68d8efad19c:4544)
+    at http://localhost:9876/base/bower_components/angular/angular.js?e2cef38defd7f05be9f8574daa85e68d8efad19c:4851'
+
+]]></system-out>
+    <system-err/>
+  </testsuite>
+</testsuites>

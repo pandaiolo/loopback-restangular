@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "sources": [
+      "./fixtures/models"
+    ]
+  },
+  "MyModel": {
+    "dataSource": "remote"
+  },
+  "Address": {
+    "dataSource": null
+  },
+  "User": {
+    "dataSource": "remote",
+    "dependencies": ["Order"]
+  }
+}
